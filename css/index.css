@@ -1,0 +1,65 @@
+
+html, body {
+	width: 100%;
+}
+
+/* mobile devices, vertical layout */
+@media only screen and (max-width: 900px) {
+
+	#topbrand {
+		display: none;
+	}
+
+	#desk {
+		display: none;
+	}
+
+	#left_name_section {
+		padding-top: 10%;
+	}
+
+	#right_section {
+		padding-left: 5%;
+		padding-right: 5%;
+		text-align: center;
+		
+	}
+}
+
+/* larger devices, desktop layout */
+@media only screen and (min-width: 900px) { /*480px*/
+
+	#mob {
+		display: none;
+	}
+
+	#left_name_section {
+		width: 30%;
+		height: 50%;
+		position: absolute;
+		top: 25%;
+		left: 20%;
+	}
+
+	#right_section {
+		width: 30%;
+		height: 30px;
+		position: absolute;
+		top: 32%;
+		right: 10%;
+		text-align: left;
+		font-size: 48px;
+	}
+}
+
+/* background */
+body {
+	background-color:white;
+	
+}
+
+
+
+
+
+
